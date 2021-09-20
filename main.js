@@ -1,5 +1,5 @@
 async function getData(code = '', data = {}) {
-  var url = "http://api.postcodes.io/postcodes/" + code;
+  var url = "https://api.postcodes.io/postcodes/" + code;
   // Default options are marked with *
   const response = await fetch(url, {
     method: 'GET', // *GET, POST, PUT, DELETE, etc.

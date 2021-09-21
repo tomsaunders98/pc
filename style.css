@@ -21,13 +21,14 @@
    max-height: 39px;
    height:30%;
    max-height: 39px;
-   margin-left: .5rem;
+   margin-right: .5rem;
    padding: .1rem .8rem;
    color: #646464;
    font-size: .8rem;
    border-radius: 1.1875rem;
    font-family: 'Bitter', serif;
    border: 1px solid #b5b7b6;
+
  }
  #exec{
       box-sizing: border-box;
@@ -46,11 +47,11 @@
  }
  #alert{
    text-align: center;
-   font-size: .8rem;
+   padding-top: 0.5rem;
  }
  h3 {
    font-size: clamp(15px, 4vh, 20px);
-   padding: 0 !important;
    margin: 0 !important;
    font-weight: 900;
+   padding-bottom: 0.5rem;
  }

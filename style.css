@@ -47,6 +47,6 @@ body{
  }
  h3 {
    font-size: clamp(15px, 4vh, 20px);
-   padding: 1%;
+   padding: 0 !important;
    margin: 0 !important;
  }

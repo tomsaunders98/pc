@@ -3,18 +3,19 @@ body{
  }
  .wrapper {
    font-family: 'Bitter', serif;
-   color: White;
-   display: -webkit-box;
-   display: -webkit-flex;
-   display: -ms-flexbox;
-   display: flex;
+   color: Black;
    text-align: left;
-   background-color: #5c909d;
-   border-radius: 1rem;
-   padding: 1%;
-   height: 100%;
-   width: 100%
  }
+ ::-moz-selection {
+  /* Code for Firefox */
+  color: White;
+  background: #e33a11;
+}
+::selection {
+  color: White;
+  background: #e33a11;
+}
+
  #pc{
    box-sizing: border-box;
    width: 70%;

@@ -36,7 +36,7 @@
    width: 20%;
    height: 20%;
    max-height: 39px;
-   margin: auto;
+   margin-right: .5rem;
    background: #E33A11;
    font-size: .8rem;
    border-radius: 1.1875rem;
@@ -54,4 +54,8 @@
    margin: 0 !important;
    font-weight: 900;
    padding-bottom: 0.5rem;
+ }
+ .inputs {
+   margin: 0 auto;
+   text-align: center;
  }

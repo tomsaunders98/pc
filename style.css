@@ -19,7 +19,7 @@
    box-sizing: border-box;
    width: 70%;
    max-height: 39px;
-   height:30%;
+   height:20%;
    max-height: 39px;
    margin-right: .5rem;
    padding: .1rem .8rem;
@@ -34,7 +34,7 @@
       box-sizing: border-box;
       border: 0;
    width: 20%;
-   height: 30%;
+   height: 20%;
    max-height: 39px;
    margin: auto;
    background: #E33A11;

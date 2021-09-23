@@ -49,8 +49,8 @@
    text-align: center;
    padding-top: 0.5rem;
  }
- h3 { /*clamp(15px, 4vh, 30px)*/
-   font-size: 3em;
+ h3 { 
+   font-size: clamp(15px, 4vh, 30px);
    margin: 0 !important;
    font-weight: 900;
    padding-bottom: 0.5rem;

@@ -2,7 +2,7 @@
    font-family: 'Bitter', serif;
    color: Black;
    text-align: left;
-   padding: 1%;
+   padding: 2%;
    border: 1px solid #b5b7b6;
  }
  ::-moz-selection {
@@ -50,7 +50,7 @@
    padding-top: 0.5rem;
  }
  h3 {
-   font-size: clamp(15px, 4vh, 20px);
+   font-size: clamp(15px, 4vh, 30px);
    margin: 0 !important;
    font-weight: 900;
    padding-bottom: 0.5rem;

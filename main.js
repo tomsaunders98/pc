@@ -105,7 +105,7 @@ async function codetoanswer(answer, filename, message) {
 
       var result = data[i].res;
       message = message.split("{var}")
-      t_alert(message[0] + result + message[1]);
+      t_alert(message[0] + "<b>" + result + "</b>" + message[1]);
 
     })
     .catch((error) => {

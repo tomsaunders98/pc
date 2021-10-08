@@ -1,0 +1,25 @@
+
+    <html>
+<head>
+  <script type="text/javascript" src="../d3.min.js"></script>
+  <script src="../main.js"></script>
+  <title>How many new Covid-19 cases are there in your area?</title>
+  <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div>
+      <h3>How many new Covid-19 cases are there in your area?</h3>
+      <input type="text" placeholder="Enter your post code..." id="pc" /><input type="button" id="exec" value="Find">
+      <div id="alert"></div>
+    </div>
+    <script type="text/javascript">
+      document.getElementById("exec").onclick = function(){
+        findpc("admin_district", "data.csv", "There are {var} new Covid-19 cases in your area today");
+          }
+        </script>
+      </div>
+    </body>
+    </html>
+    

@@ -1,0 +1,27 @@
+
+    <html>
+<head>
+  <script type="text/javascript" src="../d3.min.js"></script>
+  <script src="../main.js"></script>
+  <title>How many GPs are there in your area</title>
+  <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div>
+      <h3>How many GPs are there in your area</h3>
+        <div class="inputs">
+      <input type="text" placeholder="Enter your post code..." id="pc" /><input type="button" id="exec" value="Find">
+</div>
+      <div id="alert"></div>
+    </div>
+    <script type="text/javascript">
+      document.getElementById("exec").onclick = function(){
+        findpc("ccg", "data.csv", "There are {var} patients per GP in your area");
+          }
+        </script>
+      </div>
+    </body>
+    </html>
+    
